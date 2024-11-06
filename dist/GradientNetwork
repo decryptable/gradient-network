@@ -1,4 +1,4 @@
-#!node
-require('bytenode')
+#!/usr/bin/env node
+require('bytenode');
 
-module.exports = require('./GradientNetworkBot.jsc')
+module.exports = require('./GradientNetworkBot.jsc');
