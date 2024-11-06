@@ -7,9 +7,7 @@
   ],
   "main": "./dist/GradientNetwork",
   "module": "./dist/GradientNetwork",
-  "bin": {
-    "gradient-network": "./dist/GradientNetwork"
-  },
+  "bin": "./dist/GradientNetwork",
   "repository": "https://github.com/decryptable/gradient-network",
   "author": "decryptable",
   "license": "MIT",
