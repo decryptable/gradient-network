@@ -5,10 +5,10 @@
     "dist",
     "package.json"
   ],
-  "main": "./dist/GradientNetworkBot.load.js",
-  "module": "./dist/GradientNetworkBot.load.js",
+  "main": "./dist/GradientNetwork",
+  "module": "./dist/GradientNetwork",
   "bin": {
-    "gradient-network": "./dist/GradientNetworkBot.load.js"
+    "gradient-network": "./dist/GradientNetwork"
   },
   "repository": "https://github.com/decryptable/gradient-network",
   "author": "decryptable",
