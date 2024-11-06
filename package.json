@@ -40,9 +40,5 @@
     "dotenv": "^16.4.5",
     "mqtt": "^5.10.1",
     "ws": "^8.18.0"
-  },
-  "resolutions": {
-    "wrap-ansi": "7.0.0",
-    "string-width": "4.1.0"
   }
 }
