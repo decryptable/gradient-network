@@ -15,7 +15,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "webpack && bytenode --compile .\\dist\\GradientNetworkBot.js --compress -l %.load.js && del .\\dist\\GradientNetworkBot.js .\\dist\\GradientNetworkBot.js.LICENSE.txt",
+    "build": "webpack && bytenode --compile .\\dist\\GradientNetwork.js --compress -l % && del .\\dist\\GradientNetwork.js .\\dist\\GradientNetwork.js.LICENSE.txt",
     "watch": "webpack --watch",
     "start": "ts-node src/app.ts"
   },
