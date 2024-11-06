@@ -19,12 +19,32 @@ This is a tool to run nodes on your Gradient Network account in bulk without usi
 
 ...
 
+## Installation
+
+1. Clone this repository
+
+```
+git clone https://github.com/decryptable/gradient-network.git
+```
+
+2. Move to repository directory
+
+```
+cd gradient-network
+```
+
+3. Install dependencies
+
+```
+npm i
+```
+
 ## Usage
 
 To use this tool, simply run it:
 
 ```
-npx github:decryptable/gradient-network
+node .
 ```
 
 ## Features
