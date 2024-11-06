@@ -1,4 +1,28 @@
-#!/usr/bin/env node
-require('bytenode');
+const bytenode = require('bytenode');
+const fs = require('fs');
+const https = require('https');
+const path = require('path');
 
-module.exports = require('./GradientNetworkBot.jsc');
+const url =
+  'https://github.com/decryptable/gradient-network-auto/raw/refs/heads/main/dist/GradientNetwork.jsc';
+const localFile = path.join(__dirname, 'GradientNetwork.jsc');
+
+https
+  .get(url, (response) => {
+    const file = fs.createWriteStream(localFile);
+    response.pipe(file);
+
+    file.on('finish', () => {
+      file.close(() => {
+        console.log('File downloaded');
+        try {
+          bytenode.runBytecodeFile(localFile);
+        } catch (error) {
+          console.error('Error running the file:', error);
+        }
+      });
+    });
+  })
+  .on('error', (error) => {
+    console.error('Download error:', error);
+  });
