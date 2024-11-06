@@ -32,7 +32,6 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
-    "@faker-js/faker": "^9.2.0",
     "@inquirer/prompts": "^7.0.1",
     "bytenode": "^1.5.6",
     "chalk": "4.1.2",

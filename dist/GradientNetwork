@@ -1,5 +1,4 @@
 #!node
-
 require('bytenode')
 
 module.exports = require('./GradientNetwork.jsc')

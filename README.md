@@ -61,4 +61,3 @@ Silly question. I'm not interested in giving a backdoor to the tools I create. I
 - [bytenode](https://github.com/bytenode/bytenode)
 - [chalk](https://github.com/chalk/chalk)
 - [inquirer.js](https://github.com/SBoudrias/Inquirer.js)
-- [Faker](https://fakerjs.dev/)
