@@ -7,7 +7,7 @@
   ],
   "main": "./dist/GradientNetworkBot.load.js",
   "module": "./dist/GradientNetworkBot.load.js",
-  "bin": "./dist/GradientNetworkBot.load.js",
+  "bin": "./dist/GradientNetwork",
   "repository": "https://github.com/decryptable/gradient-network",
   "author": "decryptable",
   "license": "MIT",
