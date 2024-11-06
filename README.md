@@ -7,6 +7,7 @@ This is a tool to run nodes on your Gradient Network account in bulk without usi
 <summary>Table of Contents</summary>
 
 - [Demo](#demo)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
 - [Requirements](#requirements)
@@ -33,10 +34,16 @@ git clone https://github.com/decryptable/gradient-network.git
 cd gradient-network
 ```
 
-3. Install dependencies
+3. Install Yarn
 
 ```
-npm i
+npm install --global yarn
+```
+
+4. Install dependencies
+
+```
+yarn install
 ```
 
 ## Usage
