@@ -18,7 +18,7 @@ This is a tool to run nodes on your Gradient Network account in bulk without usi
 
 ## Demo
 
-...
+![demo](./gradient-network.gif)
 
 ## Installation
 
